@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('../fuentes/gothic.eot');
+	src: local('gothic'), 
+		url('../fuentes/gothic.woff') format('woff'), 
+		url('../fuentes/gothic.ttf') format('truetype');	
+}
+
+@font-face {
+	font-family: 'SansumiBold';
+	src: url('../fuentes/SansumiBold.eot');
+	src: local('SansumiBold'), 
+		url('../fuentes/SansumiBold.woff') format('woff'), 
+		url('../fuentes/SansumiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fuentes/GothamBook.eot');
+	src: local('GothamBook'), 
+		url('../fuentes/GothamBook.woff') format('woff'), 
+		url('../fuentes/GothamBook.ttf') format('truetype');
+}

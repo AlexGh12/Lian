@@ -1,0 +1,209 @@
+/* ¿Quienes somos? */
+
+body{
+	background-image     : url(../imagen/bgquienes.png);
+	background-size      : 100%;
+	background-repeat    : no-repeat;
+	background-attachment: fixed;
+
+}
+
+/* contenedor principal INICIO */
+
+div#vasio{
+	width: 100%;
+	height: 350px;
+	background-color: rgba(0,0,0,.15);
+}
+
+section#indice-cent{
+	margin          : auto;
+	width           : 960px;
+	height          : 350px;
+}
+
+img#banner{
+	position: fixed;
+}
+
+div#contenedor-principal{
+	margin          : auto;
+	width           : 100%;
+	min-height      : 500px;
+	background-color: #FFF;
+	position: relative;
+	z-index: 1;
+}
+
+div#contenedor-principal-cent{
+	margin: auto;
+	width : 960px;
+	height: 1100px;
+}
+
+
+/* Contenedor peincipal FIN */
+
+h1{
+	font-size : 20px;
+	text-align: center;
+	color     : #2258B3;
+}
+
+h2{
+	text-align: center;
+	color: #2A2A2A;
+}
+
+h2:hover{
+	text-align: center;
+	color: #000;
+}
+
+section#text-1{
+	border-radius   : 10px;
+	margin          : auto;
+	margin-top      : 90px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #FCE38F;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #2A2A2A;
+	text-align      : justify;
+	padding         : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition: 0.5s ease-in-out 0s;
+	-o-transition: 0.5s ease-in-out 0s;
+}
+
+section#text-1:hover{
+	border-radius   : 30px;
+	margin          : auto;
+	margin-top      : 90px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #FAD556;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #000;
+	text-align      : justify;
+	padding         : 10px;
+}
+
+section#text-2{
+	border-radius   : 10px;
+	margin          : auto;
+	margin-top      : 90px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #F5A0A0;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #2A2A2A;
+	text-align      : justify;
+	padding        	: 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition: 0.5s ease-in-out 0s;
+	-o-transition: 0.5s ease-in-out 0s;
+}
+
+section#text-2:hover{
+	border-radius   : 30px;
+	margin          : auto;
+	margin-top      : 90px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #F17070;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #000;
+	text-align      : justify;
+	padding        	: 10px;
+}
+
+section#text-3{
+	border-radius   : 10px;
+	margin          : auto;
+	margin-top      : 10px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #93E7FF;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #2A2A2A;
+	text-align      : justify;
+	padding         : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition: 0.5s ease-in-out 0s;
+	-o-transition: 0.5s ease-in-out 0s;
+}
+
+section#text-3:hover{
+	border-radius   : 30px;
+	margin          : auto;
+	margin-top      : 10px;
+	margin-left     : 10px;
+	width           : 440px;
+	height          : 450px;
+	float           : left;
+	background-color: #4FD8FF;
+	font-size       : 15px;
+	font-family     : GothamBook;
+	color           : #000;
+	text-align      : justify;
+	padding         : 10px;
+}
+
+div.centrar-ul{
+	margin-left: 30px;
+	width      : 400px;
+	height     : 100px;
+}
+
+section#img{
+	border-radius     : 10px;
+	margin            : auto;
+	margin-top        : 10px;
+	margin-left       : 10px;
+	width             : 460px;
+	height            : 470px;
+	float             : left;
+	background-color  : #278087;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+	-webkit-animation: carrucel 20s infinite alternate;
+	-moz-animation   : carrucel 20s infinite alternate;
+	-o-animation     : carrucel 20s infinite alternate;
+}
+
+@-webkit-keyframes carrucel{
+	0% 		{background: url(../imagen/carrucel1.0.png);}
+	30%		{background: url(../imagen/carrucel1.0.png);}
+	40%		{background: url(../imagen/carrucel1.1.png);}
+	60%		{background: url(../imagen/carrucel1.1.png);}
+	700%	{background: url(../imagen/carrucel1.2.png);}
+	100%	{background: url(../imagen/carrucel1.2.png);}
+}
+
+section#img:hover{
+	border-radius   : 30px;
+	margin          : auto;
+	margin-top      : 10px;
+	margin-left     : 10px;
+	width           : 460px;
+	height          : 470px;
+	background-color: #ADE2E7;
+	float           : left;
+}

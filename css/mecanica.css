@@ -1,0 +1,185 @@
+/* Mecanica */
+
+body{
+	background-image     : url(../imagen/bgmecanica.png);
+	background-size      : 100%;
+	background-repeat    : no-repeat;
+	background-attachment: fixed;
+
+}
+
+/* contenedor principal INICIO */
+
+div#vasio{
+	width           : 100%;
+	height          : 350px;
+	background-color: rgba(0,0,0,.15);
+}
+
+section#indice-cent{
+	margin: auto;
+	width : 960px;
+	height: 350px;
+}
+
+img#banner{
+	position: fixed;
+}
+
+div#contenedor-principal{
+	width           : 100%;
+	min-height      : 330px;
+	background-color: #FFF;
+	position        : relative;
+	z-index         : 1;
+}
+
+div#contenedor-principal-cent{
+	margin    : auto;
+	width     : 960px;
+	min-height: 330px;
+}
+
+/* Contenedor peincipal FIN */
+
+section#cuadros{
+	width           : 460px;
+	height          : 650px;
+	float           : left;
+}
+
+p#cuadro{
+	font-size  : 15px;
+	font-family: GothamBook;
+	color      : #000;
+	text-align : justify;
+	padding    : 15px;
+}
+
+section#text-1{
+	margin          : auto;
+	padding-top     : 75px;
+	width           : 950px;
+	height          : 700px;
+}
+
+article#cud1{
+	width             : 460px;
+	height            : 150px;
+	background-color  : #B1FF5B;
+	border-radius     : 10px;
+	margin-top        : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+article#cud1:hover{
+	width           : 460px;
+	height          : 150px;
+	background-color: rgba(177,255,91,.80);
+	border-radius   : 25px;
+	margin-top      : 10px;
+}
+
+article#cud2{
+	width             : 460px;
+	height            : 150px;
+	background-color  : #40BCFF;
+	float             : left;
+	border-radius     : 5px;
+	margin-top        : 10px;
+	margin-left       : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+article#cud2:hover{
+	width           : 460px;
+	height          : 150px;
+	background-color: rgba(64,188,255,.80);
+	float           : left;
+	border-radius   : 25px;
+	margin-top      : 10px;
+}
+
+article#cud3{
+	width             : 460px;
+	height            : 150px;
+	background-color  : #FF6A6A;
+	border-radius     : 5px;
+	margin-top        : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+article#cud3:hover{
+	width           : 460px;
+	height          : 150px;
+	background-color: rgba(255,106,106,.80);
+	border-radius   : 25px;
+	margin-top      : 10px;
+}
+
+article#cud4{
+	width             : 460px;
+	height            : 150px;
+	background-color  : #FEC570;
+	border-radius     : 5px;
+	margin-top        : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+article#cud4:hover{
+	width           : 460px;
+	height          : 150px;
+	background-color: rgba(254,197,112,.80);
+	border-radius   : 25px;
+	margin-top      : 10px;
+}
+
+article#cud5{
+	width             : 460px;
+	height            : 150px;
+	background-color  : #C97BFD;
+	border-radius     : 5px;
+	margin-top        : 10px;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+article#cud5:hover{
+	width           : 460px;
+	height          : 150px;
+	background-color: rgba(201,123,253,.80);
+	border-radius   : 25px;
+	margin-top      : 10px;
+}
+
+section#img{
+	width             : 460px;
+	height            : 470px;
+	background-color  : #969494;
+	border-radius     : 5px;
+	margin-top        : 10px;
+	margin-left       : 10px;
+	float             : left;
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+section#img:hover{
+	width           : 460px;
+	height          : 470px;
+	background-color: rgba(150,148,148,.50);
+	border-radius   : 25px;
+	margin-top      : 10px;
+	margin-left     : 10px;
+	float           : left;
+}

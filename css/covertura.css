@@ -1,0 +1,54 @@
+/* Covertura */
+
+body{
+	background-image     : url(../imagen/bg40.png);
+	background-size      : 100%;
+	background-repeat    : no-repeat;
+	background-attachment: fixed;
+
+}
+
+/* contenedor principal INICIO */
+
+div#vasio{
+	width           : 100%;
+	height          : 350px;
+	background-color: rgba(0,0,0,.15);
+}
+
+section#indice-cent{
+	margin: auto;
+	width : 960px;
+	height: 350px;
+}
+
+img#banner{
+	position: fixed;
+}
+
+div#contenedor-principal{
+	width           : 100%;
+	min-height      : 500px;
+	background-color: #E9E9E9;
+	position        : relative;
+	z-index         : 1;
+}
+
+div#contenedor-principal-cent{
+	margin    : auto;
+	width     : 960px;
+	min-height: 500px;
+}
+
+/* Contenedor peincipal FIN */
+
+section#text-1{
+	margin     : auto;
+	font-size  : 15px;
+	font-family: GothamBook;
+	color      : #1B7E94;
+	text-align : justify;
+	padding-top: 70px;
+	width      : 940px;
+	height     : 800px;
+}
